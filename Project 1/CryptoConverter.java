@@ -4,6 +4,9 @@ public class CryptoConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Herzlich willkommen beim Kryptomenü"); 
+        System.out.println("-------------------------------------");
+
         System.out.println("Geben Sie den Betrag in Bitcoins ein: ");
         double bitcoin = scanner.nextDouble();
 
@@ -17,3 +20,6 @@ public class CryptoConverter {
         scanner.close();
     }
 }
+
+
+
